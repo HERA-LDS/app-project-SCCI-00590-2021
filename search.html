@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HouseFinder - Search for Rental Properties</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="img4.jpg">
+  <header>
+    <h1>HouseFinder</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  
+  <section class="content">
+    <h2>Search for Rental Properties</h2>
+    <form id="searchForm">
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter a location">
+
+      <label for="rent">Maximum Rent:</label>
+      <input type="number" id="rent" name="rent" placeholder="Enter maximum rent amount">
+
+      <label for="rooms">Number of Rooms:</label>
+      <input type="number" id="rooms" name="rooms" placeholder="Enter number of rooms">
+
+      <button type="submit" class="btn">Search</button>
+    </form>
+    
+    <div id="searchResults">
+      <!-- Search results will be dynamically populated here -->
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
